@@ -49,3 +49,25 @@
       text-decoration: underline;
     }
   }
+
+  .quest__list{
+    display: flex;
+    //justify-content: center;
+    //align-items: flex-end;
+    border-width: 20px solid black;
+  }
+
+  .quest__item {
+    background-position: center center; /* Положение фона */
+    background-repeat: no-repeat;
+    min-width: 355px;
+    max-width: 355px;
+    min-height: 220px;
+    list-style-type: none;
+    margin: 20px;
+    
+  }
+
+  .quest__pic {
+    border-radius: 5px;
+   }
