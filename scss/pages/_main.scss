@@ -53,8 +53,10 @@
 
   .quest__list{
     display: flex;
-    //justify-content: center;
-    //align-items: flex-end;
+    justify-content: flex-start; //space-between;
+    //align-items: flex-start;
+    //align-content: space-between;
+    flex-wrap: wrap;
     border-width: 20px solid black;
   }
 
@@ -65,7 +67,7 @@
     max-width: 355px;
     min-height: 220px;
     list-style-type: none;
-    margin: 20px;
+    margin: 10px;
     
   }
 
